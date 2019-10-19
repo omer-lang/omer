@@ -16,6 +16,7 @@ namespace OSH_OS
             private int filetype;
             private int size;
             private string content;
+            private string AlonTest1;
 
 
             public File(string Name, int FileType, string Content)
@@ -62,7 +63,7 @@ namespace OSH_OS
             {
                 for (int i=0; i<Files.Length;i++)
                 {
-                    if (Files[i)!= null) {
+                    if (Files[i]!= null) {
                         return (Files[i].GetFullName().Equals(NewFile.GetFullName()) && Files[i].GetType().Equals(NewFile.GetType()));
                     }
                     
