@@ -16,7 +16,6 @@ namespace OSH_OS
             private int filetype;
             private int size;
             private string content;
-            private int stam = 0;
 
             public File(string Name, int FileType, string Content)
             {
